@@ -170,6 +170,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
+ 
+# IORapd
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.iorapd.enable=true
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
