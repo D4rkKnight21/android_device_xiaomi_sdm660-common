@@ -82,8 +82,6 @@ ndk::ScopedAStatus Power::setMode(Mode type, bool enabled) {
                 break;
             }
             [[fallthrough]];
-        case Mode::DOUBLE_TAP_TO_WAKE:
-            [[fallthrough]];
         case Mode::FIXED_PERFORMANCE:
             [[fallthrough]];
         case Mode::EXPENSIVE_RENDERING:
