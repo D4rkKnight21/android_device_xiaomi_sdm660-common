@@ -1,5 +1,7 @@
 This repository contains common device configuration for Xiaomi sdm660-based devices
 
+Needed clone https://github.com/LineageOS/android_packages_resources_devicesettings
+
 ## Copyright
 
 ```
