@@ -12,8 +12,11 @@
 -->
 	
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<resources>
- <!-- For Ultra Power Saving -->
+	
+	<!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
+    
+    <!-- For Ultra Power Saving -->
     <bool name="config_supportUltraPowerSaving">true</bool>
 
     <!-- For Enabling Battery Heath -->
@@ -27,6 +30,4 @@
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
 
-    <!-- Device specific doze package -->
-    <string name="config_customDozePackage" translatable="false">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
-</resources>
+</resources>    
